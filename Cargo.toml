@@ -1,0 +1,18 @@
+[package]
+name = "image-generation"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+resvg = "0.23.0"
+liquid = "0.26.0"
+tiny-skia = "0.6.5"
+usvg = "0.23.0"
+webp = "0.2.2"
+reqwest = { version = "0.11.11", features = ["blocking"] }
+
+[features]
+tracing = []

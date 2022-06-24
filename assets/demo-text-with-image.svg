@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+    <defs>
+        <pattern id="img" x="0" y="0" width="1" height="1" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid slice">
+            <image width="500" height="500" href="https://le-bucket.netlify.app/images/ferris.png"/>
+        </pattern>
+    </defs>
+    <rect width="1200" height="630" fill="black" />
+    <rect width="400" height="400" x="200" y="115" fill="url(#img)" />
+    <text x="630" y="330" font-size="100px" fill="#ffffff" font-family="Inter" >
+        {{ text }}
+    </text>
+</svg>
